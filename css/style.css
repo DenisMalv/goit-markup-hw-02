@@ -1,0 +1,252 @@
+/* fonts
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+Main text :
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #757575;
+H3 text:
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+H2 text: 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+H1 text: 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+Main page: 
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+Nav: 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+hover color : color: #2196F3;
+
+ */
+/* 
+  */
+:root {
+  --text-color-accent: #2196f3;
+  --text-color-standart: #757575;
+  --text-color-black: #000000;
+  --button-text-color: #ffffff;
+  --button-bcgr-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color-standart);
+  font-size: 14px;
+  line-height: 1.7px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-color-standart);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+.logo-web {
+  color: var(--text-color-accent);
+}
+.nav {
+}
+.nav-item {
+  list-style: none;
+}
+.nav-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+  color: var(--text-color-black);
+}
+.nav-item-link:hover,
+.nav-item-link:active {
+  color: var(--text-color-accent);
+}
+.head-cont {
+  list-style: none;
+}
+.head-cont-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color-standart);
+}
+.head-cont-item:hover {
+  color: var(--text-color-accent);
+}
+/* HEro side */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  /* display: flex;
+align-items: center;
+text-align: center; */
+  letter-spacing: 0.06em;
+  color: var(--button-text-color);
+  background-color: var(--button-bcgr-color);
+  cursor: pointer;
+}
+.hero-prefs {
+}
+.prefs {
+  list-style: none;
+}
+.prefs-item {
+}
+.prefs-item-h {
+  font-weight: bold;
+  line-height: 1.15px;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.prefs-item-p {
+}
+/* what we do */
+.wedo {
+}
+.wedo-h {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+
+  color: #212121;
+}
+.wedo-list {
+  list-style: none;
+}
+.wedo-item {
+}
+/* our team */
+.team {
+}
+.team-h {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+
+  color: #212121;
+}
+.team-list {
+  list-style: none;
+}
+.team-item {
+}
+.team-item-i {
+}
+.team-item-h {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
+  /* text-align: center; */
+
+  color: #212121;
+}
+.team-item-p {
+  font-size: 16px;
+  line-height: 1.2px;
+
+  /* text-align: center; */
+
+  color: var(--text-color-standart);
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-adress {
+}
+.footer-adress-list {
+  list-style: none;
+}
+.footer-adress-item {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+
+  color: #ffffff;
+}
+.footer-adress-cont {
+  /* font-size: 14px;
+  line-height: 1.71px; */
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-adress-cont:hover {
+  color: var(--text-color-accent);
+}
