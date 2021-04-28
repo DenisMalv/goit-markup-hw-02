@@ -112,7 +112,16 @@ body {
   color: var(--text-color-black);
 }
 .nav-item-link:hover,
-.nav-item-link:active {
+.nav-item-link:focus {
+  color: var(--text-color-accent);
+}
+.nav-item-link-active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
   color: var(--text-color-accent);
 }
 .head-cont {
