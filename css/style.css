@@ -64,12 +64,12 @@ color: #212121;
 hover color : color: #2196F3;
 
  */
-/* 
-  */
+/* @MAIN@ -- content styles  */
 :root {
   --text-color-accent: #2196f3;
   --text-color-standart: #757575;
   --text-color-black: #000000;
+  --text-color-h: #212121;
   --button-text-color: #ffffff;
   --button-bcgr-color: #2196f3;
 }
@@ -135,7 +135,8 @@ body {
 
   color: var(--text-color-standart);
 }
-.head-cont-item:hover {
+.head-cont-item:hover,
+.head-cont-item:focus {
   color: var(--text-color-accent);
 }
 /* HEro side */
@@ -178,7 +179,7 @@ text-align: center; */
   line-height: 1.15px;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--text-color-h);
 }
 .prefs-item-p {
 }
@@ -191,7 +192,7 @@ text-align: center; */
   line-height: 1.2;
   text-align: center;
 
-  color: #212121;
+  color: var(--text-color-h);
 }
 .wedo-list {
   list-style: none;
@@ -207,7 +208,7 @@ text-align: center; */
   line-height: 1.2;
   text-align: center;
 
-  color: #212121;
+  color: var(--text-color-h);
 }
 .team-list {
   list-style: none;
@@ -223,7 +224,7 @@ text-align: center; */
 
   /* text-align: center; */
 
-  color: #212121;
+  color: var(--text-color-h);
 }
 .team-item-p {
   font-size: 16px;
@@ -256,6 +257,66 @@ text-align: center; */
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer-adress-cont:hover {
+.footer-adress-cont:hover,
+.footer-adress-cont:focus {
   color: var(--text-color-accent);
+}
+
+/* portfolio different styles */
+.hiden-title {
+  visibility: hidden;
+}
+
+.portf-buttons {
+  list-style: none;
+}
+.buttons {
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6px;
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  padding: 6px 22px;
+
+  color: var(--text-color-h);
+  background-color: #f5f4fa;
+  /* border-radius: 4px; */
+
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--button-text-color);
+  background-color: var(--button-bcgr-color);
+}
+
+.portf {
+}
+.portf-list {
+  list-style: none;
+}
+.portf-item {
+}
+.portf-img {
+}
+.portf-h {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--text-color-h);
+}
+.portf-p {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-color-standart);
 }
