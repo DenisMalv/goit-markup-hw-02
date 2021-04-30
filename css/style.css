@@ -1,69 +1,3 @@
-/* fonts
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-Main text :
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-
-    color: #757575;
-H3 text:
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    color: #212121;
-H2 text: 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
-
-H1 text: 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-Main page: 
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-
-    letter-spacing: 0.03em;
-
-    color: #000000;
-Nav: 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-hover color : color: #2196F3;
-
- */
 /* <================ ""MAIN" content styles==============> */
 :root {
   /* Text color variable */
@@ -102,7 +36,6 @@ body {
 /* <------------------ header ------------------> */
 .logo {
   font-family: 'Raleway', sans-serif;
-  /* font-style: normal; */
   font-weight: bold;
   font-size: 26px;
   line-height: 1.15;
@@ -119,10 +52,6 @@ body {
   list-style: none;
 }
 .nav-item-link {
-  /* font-family: inherit;
-  font-style: inherit;
-  font-size: 14px; */
-
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.02em;
@@ -135,10 +64,6 @@ body {
   color: var(--text-color-accent);
 }
 .nav-item-link-active {
-  /* font-family: inherit;
-  font-style: inherit;
-  font-size: 14px; */
-
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.02em;
@@ -150,10 +75,6 @@ body {
   list-style: none;
 }
 .head-cont-item {
-  /* font-family: inherit;
-  font-style: inherit;
-  font-size: 14px; */
-
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.02em;
@@ -170,9 +91,6 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
-  /* font-family: inherit;
-  font-style: inherit; */
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -184,7 +102,6 @@ body {
   color: var(--text-color-h-white);
 }
 .hero-button {
-  /*   font-style: inherit; */
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
@@ -207,10 +124,6 @@ body {
 .prefs-item {
 }
 .prefs-item-h {
-  /* font-family: inherit;
-  font-style: inherit;
-  font-size: inherit; */
-
   font-weight: bold;
   line-height: 1.15;
   letter-spacing: 0.03em;
@@ -226,9 +139,6 @@ body {
 .wedo {
 }
 .wedo-h {
-  /* font-family: inherit;
-  font-style: inherit; */
-
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -247,9 +157,6 @@ body {
 .team {
 }
 .team-h {
-  /* font-family: inherit;
-  font-style: inherit; */
-
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -266,22 +173,15 @@ body {
 .team-item-i {
 }
 .team-item-h {
-  /* font-family: inherit;
-  font-style: inherit; */
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  /* identical to box height ????? */
+  /*---------------- identical to box height ????????????? */
   /* text-align: center; */
 
   color: var(--text-color-h-black);
 }
 .team-item-p {
-  /* font-family: inherit;
-  font-style: inherit;
-  font-weight: inherit; */
-
   font-size: 16px;
   line-height: 1.2px;
   letter-spacing: 0.03em;
@@ -300,20 +200,11 @@ body {
   list-style: none;
 }
 .footer-adress-item {
-  /*font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px; */
-
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03 em;
 }
 .footer-adress-map {
-  /* font-family: inherit;
-  font-weight: normal; 
-  font-size: 14px;*/
-
   font-style: normal;
 
   line-height: 1.71;
@@ -328,10 +219,6 @@ body {
   color: var(--text-color-accent);
 }
 .footer-adress-cont {
-  /* font-family: inherit;
-  font-weight: normal; 
-  font-size: 14px;*/
-
   font-style: normal;
   line-height: 1.71px;
 
