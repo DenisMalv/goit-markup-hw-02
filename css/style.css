@@ -64,32 +64,48 @@ color: #212121;
 hover color : color: #2196F3;
 
  */
-/* @MAIN@ -- content styles  */
+/* <================ ""MAIN" content styles==============> */
 :root {
+  /* Text color variable */
   --text-color-accent: #2196f3;
   --text-color-standart: #757575;
   --text-color-black: #000000;
-  --text-color-h: #212121;
-  --button-text-color: #ffffff;
-  --button-bcgr-color: #2196f3;
+  --text-color-head-black: #212121;
+  --text-color-h-black: #212121;
+  --text-color-h-white: #ffffff;
+
+  /* button color variable */
+  --button-text-color: #212121;
+  --button-active-text-color: #ffffff;
+  --button-bcgr-color: #f5f4fa;
+  --button-active-bcgr-color: #2196f3;
+
+  /* background color variable */
+  --color-footer-backgr: #2f303a;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--text-color-standart);
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.7px;
-
+  line-height: 1.71;
+  /* or 171% */
   letter-spacing: 0.03em;
 
   color: var(--text-color-standart);
 }
 
+/* <=================== page Studio ===================> */
+
+/* <------------------ header ------------------> */
 .logo {
   font-family: 'Raleway', sans-serif;
+  /* font-style: normal; */
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.15;
 
   text-decoration: none;
   color: var(--text-color-black);
@@ -103,21 +119,27 @@ body {
   list-style: none;
 }
 .nav-item-link {
+  /* font-family: inherit;
+  font-style: inherit;
+  font-size: 14px; */
+
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 
   text-decoration: none;
-  color: var(--text-color-black);
+  color: var(--text-color-head-black);
 }
 .nav-item-link:hover,
 .nav-item-link:focus {
   color: var(--text-color-accent);
 }
 .nav-item-link-active {
+  /* font-family: inherit;
+  font-style: inherit;
+  font-size: 14px; */
+
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 
@@ -128,8 +150,11 @@ body {
   list-style: none;
 }
 .head-cont-item {
+  /* font-family: inherit;
+  font-style: inherit;
+  font-size: 14px; */
+
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 
@@ -139,32 +164,39 @@ body {
 .head-cont-item:focus {
   color: var(--text-color-accent);
 }
-/* HEro side */
+
+/* <------------------- hero side ----------------> */
 .hero {
   background-color: #2f303a;
 }
 .hero-title {
+  /* font-family: inherit;
+  font-style: inherit; */
+
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
-
+  line-height: 1.36;
+  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--text-color-h-white);
 }
 .hero-button {
+  /*   font-style: inherit; */
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-
+  /* identical to box height, or 187% */
   /* display: flex;
-align-items: center;
-text-align: center; */
+  align-items: center;
+  text-align: center; */
+
   letter-spacing: 0.06em;
-  color: var(--button-text-color);
-  background-color: var(--button-bcgr-color);
+  color: var(--button-active-text-color);
+  background-color: var(--button-active-bcgr-color);
   cursor: pointer;
 }
 .hero-prefs {
@@ -175,40 +207,56 @@ text-align: center; */
 .prefs-item {
 }
 .prefs-item-h {
+  /* font-family: inherit;
+  font-style: inherit;
+  font-size: inherit; */
+
   font-weight: bold;
-  line-height: 1.15px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--text-color-h);
+  color: var(--text-color-h-black);
 }
 .prefs-item-p {
+  /* this style's in our body */
 }
-/* what we do */
+
+/* <------------------- what we do ------------------> */
 .wedo {
 }
 .wedo-h {
+  /* font-family: inherit;
+  font-style: inherit; */
+
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 
-  color: var(--text-color-h);
+  color: var(--text-color-h-black);
 }
 .wedo-list {
   list-style: none;
 }
 .wedo-item {
 }
-/* our team */
+
+/* <-------------------our team-------------------> */
 .team {
 }
 .team-h {
+  /* font-family: inherit;
+  font-style: inherit; */
+
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 
-  color: var(--text-color-h);
+  color: var(--text-color-h-black);
 }
 .team-list {
   list-style: none;
@@ -218,25 +266,33 @@ text-align: center; */
 .team-item-i {
 }
 .team-item-h {
+  /* font-family: inherit;
+  font-style: inherit; */
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-
+  /* identical to box height ????? */
   /* text-align: center; */
 
-  color: var(--text-color-h);
+  color: var(--text-color-h-black);
 }
 .team-item-p {
+  /* font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit; */
+
   font-size: 16px;
   line-height: 1.2px;
+  letter-spacing: 0.03em;
 
   /* text-align: center; */
-
   color: var(--text-color-standart);
 }
-/* footer */
+
+/* <--------------------footer-------------------> */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--color-footer-backgr);
 }
 .footer-adress {
 }
@@ -244,15 +300,40 @@ text-align: center; */
   list-style: none;
 }
 .footer-adress-item {
-  font-size: 14px;
+  /*font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px; */
+
   line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03 em;
+}
+.footer-adress-map {
+  /* font-family: inherit;
+  font-weight: normal; 
+  font-size: 14px;*/
+
   font-style: normal;
 
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
+}
+.footer-adress-map:hover,
+.footer-adress-map:focus {
+  color: var(--text-color-accent);
 }
 .footer-adress-cont {
-  /* font-size: 14px;
-  line-height: 1.71px; */
+  /* font-family: inherit;
+  font-weight: normal; 
+  font-size: 14px;*/
+
+  font-style: normal;
+  line-height: 1.71px;
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -262,38 +343,39 @@ text-align: center; */
   color: var(--text-color-accent);
 }
 
-/* portfolio different styles */
+/* <==========  page Portfolio "different styles" ========> */
 .hiden-title {
   visibility: hidden;
 }
 
+/* <---------portfolio buttons --------> */
 .portf-buttons {
   list-style: none;
 }
 .buttons {
 }
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6px;
-
-  /* text-align: center; */
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
   letter-spacing: 0.03em;
 
-  padding: 6px 22px;
-
-  color: var(--text-color-h);
-  background-color: #f5f4fa;
+  color: var(--button-text-color);
+  background-color: var(--button-bcgr-color);
   /* border-radius: 4px; */
 
   cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  color: var(--button-text-color);
-  background-color: var(--button-bcgr-color);
+  color: var(--button-active-text-color);
+  background-color: var(--button-active-bcgr-color);
 }
 
+/* <-----------portfolio card list-----------> */
 .portf {
 }
 .portf-list {
@@ -310,7 +392,7 @@ text-align: center; */
 
   letter-spacing: 0.06em;
 
-  color: var(--text-color-h);
+  color: var(--text-color-h-black);
 }
 .portf-p {
   font-size: 16px;
