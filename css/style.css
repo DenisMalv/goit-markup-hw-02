@@ -20,9 +20,11 @@
   --color-footer-backgr: #2f303a;
 }
 /* <===== Плавный скрол между header and footer ====> */
-/* html {
+/* 
+html {
   scroll-behavior: smooth;
-} */
+} 
+*/
 
 body {
   font-family: 'Roboto', sans-serif;
