@@ -11,6 +11,7 @@
   --text-color-address-link: rgba(255, 255, 255, 0.6);
 
   /* button color variable */
+
   /* <-------button-hero-----------> */
   --button-hero-text-color: #ffffff;
   --button-hero-backgr-color: #2196f3;
@@ -25,6 +26,7 @@
   /* background color variable */
   --color-footer-backgr: #2f303a;
 }
+
 /* <===== Плавный скрол между header and footer ====> */
 html {
   scroll-behavior: smooth;
@@ -41,6 +43,11 @@ body {
 
   color: var(--text-color-standart);
 }
+
+.hiden-title {
+  visibility: hidden;
+}
+
 /* <=================== page Studio ===================> */
 
 /* <------------------ header ------------------> */
@@ -156,7 +163,6 @@ body {
 .wedo {
 }
 .wedo-h {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -173,7 +179,6 @@ body {
 .team {
 }
 .team-h {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -238,9 +243,6 @@ body {
 }
 
 /* <==========  page Portfolio "different styles" ========> */
-.hiden-title {
-  visibility: hidden;
-}
 
 /* <---------portfolio buttons --------> */
 .portf-buttons {
