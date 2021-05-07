@@ -280,6 +280,7 @@ body {
   list-style: none;
 }
 .portf-list {
+  display: inline-block;
 }
 .portf-item {
 }
